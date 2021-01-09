@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_blue_bright">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/linear2"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Binus EzyFood"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end"
+        android:id="@+id/linearLast">
+
+        <Button
+            android:id="@+id/myorderBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:text="My Order"
+            android:textSize="8pt"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/foodBtn"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/icon_food"
+            android:gravity="center|bottom"
+            android:text="Food"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/drinkBtn"
+            android:layout_width="200dp"
+            android:layout_height="208dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/icon_drink"
+            android:gravity="center|bottom"
+            android:text="Drinks"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="377dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="188dp"
+            android:layout_height="208dp"
+            android:background="@drawable/icon_snack"
+            android:gravity="center|bottom"
+            android:text="Snacks"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/topupBtn"
+            android:layout_width="194dp"
+            android:layout_height="203dp"
+            android:layout_gravity="top"
+            android:background="@drawable/icon_wallet"
+            android:gravity="center|bottom"
+            android:text="TOP UP"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/mapBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:text="My Map"
+        android:textSize="8pt"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>
